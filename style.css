@@ -1,0 +1,137 @@
+.slider {
+  background-color: #000;
+  width: 1440px;
+  height: 783px;
+}
+
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 1171px;
+  height: 553px;
+  margin: 0px;
+  padding: 92px 134px 138px 134px;
+  position: relative;
+}
+
+.header-container__header {
+  font-family: "Yeseva One";
+  font-style: Regular;
+  font-size: 27px;
+  color: #e3b873;
+  width: 253px;
+  height: 66px;
+}
+
+.header-container__subtitle {
+  font-family: "Nunito Sans";
+  font-style: Regular;
+  font-size: 14px;
+  width: 442px;
+  height: 86px;
+  color: #fff;
+}
+
+.navigation-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #808080;
+  font-family: "Yeseva One";
+  font-style: Regular;
+  gap: 20px;
+  padding: 22px 30px;
+  cursor: pointer;
+}
+
+.navigation-links__item.active {
+  text-decoration-line: underline;
+  text-decoration-color: #e3b873;
+  color: #e3b873;
+}
+
+.text-group > ul {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 60px;
+  width: 442px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  color: #e3b873;
+  font-family: "Yeseva One";
+  font-style: Regular;
+  font-size: 18px;
+}
+
+.slider-images .image {
+  background-size: cover;
+  background-position: left;
+  width: 679px;
+  height: 482px;
+  display: none;
+}
+
+.slider-images .image.active {
+  display: flex;
+}
+
+.slider-arrows {
+  display: flex;
+  color: #fff;
+  gap: 20px;
+  align-items: center;
+  position: absolute;
+  top: 525px;
+}
+
+.slider-arrow {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.slider-arrow:hover {
+  opacity: 1;
+}
+
+.slider-dots {
+  display: flex;
+  gap: 15px;
+}
+
+.group__city {
+  color: #fff;
+  font-family: "Nutino Sans";
+  font-style: Regular;
+}
+.group__apartament {
+  color: #fff;
+  font-family: "Nutino Sans";
+  font-style: Regular;
+}
+
+.group__time {
+  color: #fff;
+  font-family: "Nutino Sans";
+  font-style: Regular;
+}
+
+.group__cost {
+  color: #fff;
+  font-family: "Nutino Sans";
+  font-style: Regular;
+}
+
+.slider-dots__item {
+  width: 10px;
+  height: 10px;
+  background: #808080;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-dots__item:hover,
+.slider-dots__item.active {
+  background: #fff;
+}
